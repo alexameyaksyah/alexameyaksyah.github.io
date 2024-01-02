@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Segitiga</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+  <div class="contentheader">
+    <h1>BerhitungAsikk!</h1>
+    <p>"Angka Bukan Hanya Angka, Tetapi Petunjuk Perjalanan."</p>
+  </div>
+</header>
+
+<h2>Kalkulator Segitiga</h2>
+
+<div id="calculator">
+  <label for="alas">Alas:</label>
+  <input type="number" id="alas" placeholder="Masukkan Panjang Alas">
+
+  <label for="tinggi">Tinggi:</label>
+  <input type="number" id="tinggi" placeholder="Masukkan Tinggi">
+
+  <label for="sisi">Sisi Miring:</label>
+  <input type="number" id="sisi" placeholder="Masukkan Panjang Sisi Miring">
+
+  <div style="display: flex; justify-content: space-between; width: 100%;">
+    <button onclick="hitung()">Ayo Hitung!</button>
+    <button onclick="reset()">Reset</button>
+  </div>
+
+  <h3>Hasil:</h3>
+  <p id="luas">Luas: </p>
+  <p id="keliling">Keliling: </p>
+</div>
+
+<footer>
+  <p>&copy; 2024 BerhitungAsikk! - Dibuat oleh <a href="https://www.instagram.com/alexameyaksyah?igsh=MWhrbTk1dmR3MDVnMA==">@alexameyaksyah</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

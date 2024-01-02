@@ -1,0 +1,116 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  background-image:url(pexels-nothing-ahead-4494634.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden; /* Mencegah scrolling horizontal */
+}
+
+header {
+  background-color: #042044;
+  color: #fff;
+  margin-left: 0px;
+  padding: 0 px;
+  width: 100%;
+}
+
+h1 {
+  margin-left: 20px ;
+  font-size: 30px;
+}
+
+.contentheader p {
+  margin-top: -15px;
+  margin: 20px;
+  margin-top: -13 px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+#calculator {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#calculator label,
+#calculator input,
+#calculator button {
+  margin-bottom: 10px;
+}
+
+#calculator label {
+  text-align: left;
+  width: 100%;
+}
+
+#calculator button {
+  width: 100%; /* agar tombol mengambil lebar penuh */
+}
+
+#calculator button + button {
+  margin-left: 6px; /* jarak antar tombol */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: -4px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border-style: groove;
+}
+
+button {
+  width: 100%;
+  padding: 9px;
+  margin-top: 8px;
+  background-color: #2b5ea0;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #042044;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  #calculator {
+    width: 80%;
+  }
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+  color: white;
+}
